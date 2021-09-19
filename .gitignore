@@ -1,0 +1,5 @@
+.fabric/
+.fabric-installer/
+.mixin.out/
+logs/
+*.jar
