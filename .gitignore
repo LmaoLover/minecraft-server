@@ -2,5 +2,5 @@
 .fabric-installer/
 .mixin.out/
 logs/
-*.jar
+/*.jar
 SecondLife/
