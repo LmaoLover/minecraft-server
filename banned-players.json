@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "uuid": "473c46b3-3ab4-47a6-a363-cf53ef5e1cc7",
+    "name": "Dakness",
+    "created": "2020-10-27 00:19:01 -0600",
+    "source": "badkiera2000",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "64851176-6f30-4fdf-a792-a67caf20fd70",
+    "name": "bbnomula",
+    "created": "2020-10-22 22:32:30 -0600",
+    "source": "aclee_",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "a1bb3e57-1cbb-45a1-b388-cd2050e8263c",
+    "name": "epicminer99er",
+    "created": "2020-10-26 19:53:23 -0600",
+    "source": "aclee_",
+    "expires": "forever",
+    "reason": "cheater cheater pumpkin eater"
+  }
+]

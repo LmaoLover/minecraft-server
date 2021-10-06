@@ -5,3 +5,5 @@ logs/
 /*.jar
 SecondLife/
 /usercache.json
+world/
+dynmap/
