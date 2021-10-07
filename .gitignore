@@ -1,6 +1,3 @@
-.fabric/
-.fabric-installer/
-.mixin.out/
 logs/
 SecondLife/
 /usercache.json
