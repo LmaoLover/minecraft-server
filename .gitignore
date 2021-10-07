@@ -6,4 +6,4 @@ logs/
 SecondLife/
 /usercache.json
 world/
-dynmap/
+dynmap/web/
