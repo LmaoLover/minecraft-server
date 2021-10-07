@@ -2,7 +2,6 @@
 .fabric-installer/
 .mixin.out/
 logs/
-/*.jar
 SecondLife/
 /usercache.json
 world/
