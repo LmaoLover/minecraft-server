@@ -361,11 +361,11 @@ updateplayerlimit: 0
 # Target limit on server thread use - msec per tick
 per-tick-time-limit: 50
 # If TPS of server is below this setting, update renders processing is paused
-update-min-tps: 18.0
+update-min-tps: 19.1
 # If TPS of server is below this setting, full/radius renders processing is paused
-fullrender-min-tps: 18.0
+fullrender-min-tps: 19.7
 # If TPS of server is below this setting, zoom out processing is paused
-zoomout-min-tps: 18.0
+zoomout-min-tps: 18.7
 
 showplayerfacesinmenu: true
 
