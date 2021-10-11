@@ -300,7 +300,7 @@ render-triggers:
   - blockupdate
   #- blockupdate-with-id
   #- lightingupdate
-  - chunkpopulate
+  #- chunkpopulate
   - chunkgenerate
   #- none
 
