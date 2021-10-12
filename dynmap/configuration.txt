@@ -297,7 +297,7 @@ compass-mode: newnorth
 # Triggers for automatic updates : blockupdate-with-id is debug for breaking down updates by ID:meta
 # To disable, set just 'none' and comment/delete the rest
 render-triggers:
-  - blockupdate
+  #- blockupdate
   #- blockupdate-with-id
   #- lightingupdate
   #- chunkpopulate
@@ -341,7 +341,7 @@ login-required: false
 timesliceinterval: 0.0
 
 # Maximum chunk loads per server tick (1/20th of a second) - reducing this below 90 will impact render performance, but also will reduce server thread load
-maxchunkspertick: 200
+maxchunkspertick: 160
 
 # Progress report interval for fullrender/radiusrender, in tiles.  Must be 100 or greater
 progressloginterval: 100
@@ -352,20 +352,20 @@ progressloginterval: 100
 #parallelrendercnt: 4
 
 # Interval the browser should poll for updates.
-updaterate: 2000
+updaterate: 3000
 
 # If nonzero, server will pause fullrender/radiusrender processing when 'fullrenderplayerlimit' or more users are logged in
-fullrenderplayerlimit: 0
+fullrenderplayerlimit: 1
 # If nonzero, server will pause update render processing when 'updateplayerlimit' or more users are logged in
-updateplayerlimit: 0
+updateplayerlimit: 3
 # Target limit on server thread use - msec per tick
-per-tick-time-limit: 50
+per-tick-time-limit: 42
 # If TPS of server is below this setting, update renders processing is paused
-update-min-tps: 19.1
+update-min-tps: 19.8
 # If TPS of server is below this setting, full/radius renders processing is paused
-fullrender-min-tps: 19.7
+fullrender-min-tps: 19.8
 # If TPS of server is below this setting, zoom out processing is paused
-zoomout-min-tps: 18.7
+zoomout-min-tps: 19.8
 
 showplayerfacesinmenu: true
 
